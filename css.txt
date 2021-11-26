@@ -1,16 +1,18 @@
 .class{
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-  align-content: stretch;
-  overflow: visible;
-  width: auto;
-  height: auto;
+
+display: flex;
+flex-flow: row nowrap;
+justify-content: flex-start;
+align-items: flex-start;
+align-content: stretch;
+overflow: visible;
+width: auto;
+height: auto;
 
 }
 .subClass{
-  align-self: flex-start;
+
+align-self: flex-start;
   
 }
 @media only screen and (max-width: $portraitSize) {
